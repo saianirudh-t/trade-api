@@ -41,11 +41,15 @@ pip install -r requirements.txt
 
 Create a .env file in the root directory and add the following:
 Code snippet
+    Framework: FastAPI 
 
-SECRET_KEY=devsecret123
-RATE_LIMIT_PER_MINUTE=5
-GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_ENDPOINT=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+    SECRET_KEY=devsecret123
+
+    RATE_LIMIT_PER_MINUTE=5
+
+    GEMINI_API_KEY=your_gemini_api_key_here
+
+    GEMINI_ENDPOINT=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
 
 4. Run the Server
 Bash
