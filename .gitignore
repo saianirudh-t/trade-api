@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables (CRITICAL: Do not push your API keys)
+.env
+.env.local
+
+# IDE Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log Files
+*.log
+logs/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS Specific
+.DS_Store
+Thumbs.db
